@@ -1,1 +1,1 @@
-include ':app', ':universaladapter', ':propertyanimation'
+include ':app', ':universaladapter', ':propertyanimation', ':viewstub', ':exactarithmetic', ':ThreeLevelLruCache', ':threelevelcache'

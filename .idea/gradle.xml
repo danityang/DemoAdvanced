@@ -8,9 +8,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ThreeLevelLruCache" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/exactarithmetic" />
             <option value="$PROJECT_DIR$/propertyanimation" />
+            <option value="$PROJECT_DIR$/threelevelcache" />
             <option value="$PROJECT_DIR$/universaladapter" />
+            <option value="$PROJECT_DIR$/viewstub" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

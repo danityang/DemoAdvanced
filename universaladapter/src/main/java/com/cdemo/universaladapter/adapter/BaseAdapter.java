@@ -33,6 +33,11 @@ public abstract class BaseAdapter<T> extends RecyclerView.Adapter<BaseAdapter.Rv
         return new RvHolder(view);
     }
 
+    /**
+     * ViewHolder需冠于本类内部类RvHolder/BaseAdapter.RvHolder
+     * @param holder
+     * @param position
+     */
     @Override
     public void onBindViewHolder(BaseAdapter.RvHolder holder, int position) {
         holder.bindData(mDataList.get(position));
