@@ -6,9 +6,13 @@ package com.cdemo.demoadvanced;
 
 public enum EClass {
 
-    SOURCE1,
-    SOURCE2,
-    SOURCE3,
-    SOURCE4,
-    SOURCE5,
+    SOURCE1("", 1),
+    SOURCE2("", 2),
+    SOURCE3("", 3),
+    SOURCE4("", 4),
+    SOURCE5("", 5);
+
+    EClass(String s, int i) {
+
+    }
 }

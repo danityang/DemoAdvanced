@@ -6,10 +6,14 @@
       <module fileurl="file://$PROJECT_DIR$/ThreeLevelLruCache/ThreeLevelLruCache.iml" filepath="$PROJECT_DIR$/ThreeLevelLruCache/ThreeLevelLruCache.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" filepath="$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" filepath="$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/performanceoptimization/performanceoptimization.iml" filepath="$PROJECT_DIR$/performanceoptimization/performanceoptimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socketpro/socketpro.iml" filepath="$PROJECT_DIR$/socketpro/socketpro.iml" />
       <module fileurl="file://$PROJECT_DIR$/threelevelcache/threelevelcache.iml" filepath="$PROJECT_DIR$/threelevelcache/threelevelcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/universaladapter/universaladapter.iml" filepath="$PROJECT_DIR$/universaladapter/universaladapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viewstub/viewstub.iml" filepath="$PROJECT_DIR$/viewstub/viewstub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewscroller/viewscroller.iml" filepath="$PROJECT_DIR$/viewscroller/viewscroller.iml" />
     </modules>
   </component>
 </project>

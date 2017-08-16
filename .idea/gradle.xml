@@ -11,10 +11,14 @@
             <option value="$PROJECT_DIR$/ThreeLevelLruCache" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/exactarithmetic" />
+            <option value="$PROJECT_DIR$/genericparadigm" />
+            <option value="$PROJECT_DIR$/layoutoptimization" />
+            <option value="$PROJECT_DIR$/performanceoptimization" />
             <option value="$PROJECT_DIR$/propertyanimation" />
+            <option value="$PROJECT_DIR$/socketpro" />
             <option value="$PROJECT_DIR$/threelevelcache" />
             <option value="$PROJECT_DIR$/universaladapter" />
-            <option value="$PROJECT_DIR$/viewstub" />
+            <option value="$PROJECT_DIR$/viewscroller" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

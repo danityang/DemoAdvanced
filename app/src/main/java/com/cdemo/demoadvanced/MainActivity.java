@@ -26,6 +26,19 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
+    }
+
+    private void eTest() {
+
+        EClass ec = EClass.SOURCE1;
+//        EClass.SOURCE1 = "";
+        switch (ec) {
+            case SOURCE1:
+                break;
+        }
+
     }
 
     @Override
