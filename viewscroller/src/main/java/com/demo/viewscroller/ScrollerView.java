@@ -60,7 +60,8 @@ public class ScrollerView extends ViewGroup {
         int childCount = getChildCount();
         for (int i = 0; i < childCount; i++) {
             View childView = getChildAt(i);
-            // 为ScrollerLayout中的每一个子控件测量大小
+            // TODO 为ScrollerLayout中的每一个子控件测量大小
+            // TODO 因为继承自ViewGroup,可用measureChild()方法，如果继承自View则需要根据父View给的MeasureSpec来确定自己本身(子View)需要的空间
             measureChild(childView, widthMeasureSpec, heightMeasureSpec);
         }
     }
@@ -84,8 +85,10 @@ public class ScrollerView extends ViewGroup {
                 // TODO childView.layout获取子View对象，当i为1时，0*childView.getWidth()值为零，第一个View布局的left坐标为0，
                 // TODO 右坐标即为第一个View的宽度，即（0+1）* childView.getWidth()，一次类推，子View按水平方向在ViewGroup内
                 // TODO 排列，top为0，bottom为子View的高度。
-                // TODO: 2017/8/16 注： childView.getMeasuredWidth()和childView.getWidth()的区别：View.getWidth() ——> 在布局完成后获得的View的宽度，
-                // TODO 在View未完成布局之前，该值为0；View.getMeasuredWidth() ——> 对View上的内容进行测量后得到的View内容占据的宽度、View需要的布局空间，前提是在这之前已调用measureview方法。
+                // TODO 注：childView.getMeasuredWidth()和childView.getWidth()的区别：View.getWidth() ——> 在布局完成后(layout()后)获得的View的宽度，
+                // TODO 在View未完成布局之前，该值为0；View.getMeasuredWidth() ——> 对View上的内容进行测量后得到的View内容占据的宽度、View需要的布局空间，前提是在这之前已调用MeasureView方法——>onMearsure()方法
+                // TODO 另：getMeasureWidth()方法在measure()过程结束后就可以获取到了，而getWidth()方法要在layout()过程结束后才能获取到。
+                // TODO getMeasureWidth()方法中的值是通过setMeasuredDimension()方法来进行设置的，而getWidth()方法中的值则是通过视图右边的坐标减去左边的坐标计算出来的
                 childView.layout(i * childView.getMeasuredWidth(), 0, (i + 1) * childView.getMeasuredWidth(), childView.getMeasuredHeight());
             }
             // 初始化左右边界值
@@ -93,8 +96,6 @@ public class ScrollerView extends ViewGroup {
             rightBorder = getChildAt(getChildCount() - 1).getRight() + 30;
         }
     }
-
-
 
 
     /**
@@ -166,8 +167,9 @@ public class ScrollerView extends ViewGroup {
                 Log.i(TAG, "onTouchEvent: dx : " + dx);
                 // TODO 调用startScroll()方法来初始化滚动数据并刷新界面
                 mScroller.startScroll(getScrollX(), 0, dx, 0);
-                // TODO  invalidate()在UI线程中调用，非UI线程中刷新界面使用postinvalidate();
+                // TODO  invalidate()在UI线程中调用来更新界面，非UI线程中刷新界面使用postinvalidate();
                 invalidate();
+//                postInvalidate();
                 break;
             case MotionEvent.ACTION_CANCEL:
                 break;
@@ -177,13 +179,18 @@ public class ScrollerView extends ViewGroup {
 
     /**
      * TODO computeScroll()方法，在其内部完成平滑滚动的逻辑
+     * <p>
+     * Call this when you want to know the new location.  If it returns true,
+     * the animation is not yet finished.
      */
     @Override
     public void computeScroll() {
         super.computeScroll();
         if (mScroller.computeScrollOffset()) {
             scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
+            // 刷新界面
             invalidate();
+//            postInvalidate();
         }
     }
 }

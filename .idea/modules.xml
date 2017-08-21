@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" filepath="$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gimage/gimage.iml" filepath="$PROJECT_DIR$/gimage/gimage.iml" />
       <module fileurl="file://$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" filepath="$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/performanceoptimization/performanceoptimization.iml" filepath="$PROJECT_DIR$/performanceoptimization/performanceoptimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
