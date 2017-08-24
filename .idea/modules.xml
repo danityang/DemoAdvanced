@@ -8,7 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" filepath="$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
       <module fileurl="file://$PROJECT_DIR$/gimage/gimage.iml" filepath="$PROJECT_DIR$/gimage/gimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/immersivemodel/immersivemodel.iml" filepath="$PROJECT_DIR$/immersivemodel/immersivemodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" filepath="$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messengerclient/messengerclient.iml" filepath="$PROJECT_DIR$/messengerclient/messengerclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messengerserver/messengerserver.iml" filepath="$PROJECT_DIR$/messengerserver/messengerserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/performanceoptimization/performanceoptimization.iml" filepath="$PROJECT_DIR$/performanceoptimization/performanceoptimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/socketpro/socketpro.iml" filepath="$PROJECT_DIR$/socketpro/socketpro.iml" />

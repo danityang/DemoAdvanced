@@ -13,7 +13,10 @@
             <option value="$PROJECT_DIR$/exactarithmetic" />
             <option value="$PROJECT_DIR$/genericparadigm" />
             <option value="$PROJECT_DIR$/gimage" />
+            <option value="$PROJECT_DIR$/immersivemodel" />
             <option value="$PROJECT_DIR$/layoutoptimization" />
+            <option value="$PROJECT_DIR$/messengerclient" />
+            <option value="$PROJECT_DIR$/messengerserver" />
             <option value="$PROJECT_DIR$/performanceoptimization" />
             <option value="$PROJECT_DIR$/propertyanimation" />
             <option value="$PROJECT_DIR$/socketpro" />

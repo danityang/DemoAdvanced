@@ -31,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }.start();*/
 
-
+        /**
+         * 驾驶技能 上路总结：
+         * 1：转弯，右转转小弯，左转转大弯。右转转大弯是因为
+         */
 
     }
 
