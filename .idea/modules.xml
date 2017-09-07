@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoAdvanced.iml" filepath="$PROJECT_DIR$/DemoAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreeLevelLruCache/ThreeLevelLruCache.iml" filepath="$PROJECT_DIR$/ThreeLevelLruCache/ThreeLevelLruCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidhttps/androidhttps.iml" filepath="$PROJECT_DIR$/androidhttps/androidhttps.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" filepath="$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />

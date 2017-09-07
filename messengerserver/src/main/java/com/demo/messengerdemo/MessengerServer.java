@@ -38,8 +38,6 @@ public class MessengerServer extends Service {
             // TODO 获取客户端Messenger对象；客户端发送的Message的eplyto持有客户端Messenger对象
             mClientMessenger = msg.replyTo;
             // TODO 向客户端返回/返回数据
-//            mReturnMessage = new Message();
-//            mReturnMessage.what = 0x12;
             mReturnMessage = Message.obtain(null, 0x12);
             Bundle bundle = new Bundle();
             // TODO 附带参数、要传的值

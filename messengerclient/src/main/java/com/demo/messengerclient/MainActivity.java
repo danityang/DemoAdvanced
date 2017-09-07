@@ -40,10 +40,7 @@ public class MainActivity extends AppCompatActivity {
      * @param v
      */
     public void sendClick(View v) {
-        // TODO 创建一个Message对象的写法
-//        mSendMessage = new Message();
-//        mSendMessage.what = 0x11;
-        // TODO 或者下面的写法：
+        // TODO 创建一个Message对象的写法，Message.obtain——>从持有 Message的MessagePool拿出，省去New一个message节约内存开支
         mSendMessage = Message.obtain(null, 0x11);
         Bundle bundle = new Bundle();
         // TODO 附带参数、要传的值
