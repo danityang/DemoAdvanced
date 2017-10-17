@@ -11,9 +11,12 @@
             <option value="$PROJECT_DIR$/ThreeLevelLruCache" />
             <option value="$PROJECT_DIR$/androidhttps" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/commonadapter" />
+            <option value="$PROJECT_DIR$/customchart" />
             <option value="$PROJECT_DIR$/exactarithmetic" />
             <option value="$PROJECT_DIR$/genericparadigm" />
             <option value="$PROJECT_DIR$/gimage" />
+            <option value="$PROJECT_DIR$/hellocharts-library" />
             <option value="$PROJECT_DIR$/immersivemodel" />
             <option value="$PROJECT_DIR$/layoutoptimization" />
             <option value="$PROJECT_DIR$/messengerclient" />

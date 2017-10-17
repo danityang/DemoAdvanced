@@ -6,9 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/ThreeLevelLruCache/ThreeLevelLruCache.iml" filepath="$PROJECT_DIR$/ThreeLevelLruCache/ThreeLevelLruCache.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidhttps/androidhttps.iml" filepath="$PROJECT_DIR$/androidhttps/androidhttps.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonadapter/commonadapter.iml" filepath="$PROJECT_DIR$/commonadapter/commonadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customchart/customchart.iml" filepath="$PROJECT_DIR$/customchart/customchart.iml" />
       <module fileurl="file://$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" filepath="$PROJECT_DIR$/exactarithmetic/exactarithmetic.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
       <module fileurl="file://$PROJECT_DIR$/gimage/gimage.iml" filepath="$PROJECT_DIR$/gimage/gimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" filepath="$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/immersivemodel/immersivemodel.iml" filepath="$PROJECT_DIR$/immersivemodel/immersivemodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" filepath="$PROJECT_DIR$/layoutoptimization/layoutoptimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/messengerclient/messengerclient.iml" filepath="$PROJECT_DIR$/messengerclient/messengerclient.iml" />
